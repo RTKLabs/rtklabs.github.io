@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<svg width="112" height="115" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_2" r="7.4" cy="80.5" cx="56" stroke-miterlimit="10" stroke-width="1.5" stroke="#231F20" fill="none" clip-rule="evenodd" fill-rule="evenodd"/>
+  <path id="svg_3" d="m12.3,114.099998l87.399997,0" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_4" d="m40.700001,23.200001c0,-8.453039 6.846962,-15.300001 15.299999,-15.300001c8.453041,0 15.300003,6.846961 15.300003,15.300001c0,8.453037 -6.846962,15.299999 -15.300003,15.299999c-8.453037,0 -15.299999,-6.846962 -15.299999,-15.299999z" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_5" d="m53.400002,28c0,-2.37569 1.924309,-4.299999 4.299999,-4.299999c2.37569,0 4.299999,1.924309 4.299999,4.299999c0,2.37569 -1.924309,4.299999 -4.299999,4.299999c-2.37569,0 -4.299999,-1.924309 -4.299999,-4.299999z" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_6" d="m79.400002,56c-3,-10.099998 -12.300003,-17.400002 -23.399998,-17.400002c-11.100002,0 -20.400002,7.300003 -23.400002,17.400002" stroke-miterlimit="10" stroke-width="1.5" stroke="#231F20" fill="none"/>
+  <path id="svg_7" d="m34.200001,27.6c-0.299999,-1.4 -0.400002,-2.9 -0.400002,-4.4c0,-12.300001 10,-22.3 22.299999,-22.3c12.300003,0 22.300003,10.000001 22.300003,22.3c0,1.5 -0.200005,3 -0.400002,4.4l-15.900002,0" stroke-miterlimit="10" stroke-width="1.5" stroke="#231F20" fill="none"/>
+  <path id="svg_12" d="m19.124949,106.925072l-9.874936,-51.174995l93.250125,0l-10.750008,51.000069l-72.625181,0.174927z" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#231F20" fill="none"/>
+ </g>
+</svg>

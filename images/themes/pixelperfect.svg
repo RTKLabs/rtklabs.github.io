@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<svg width="112" height="115" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m3.9,109.199997l11.6,-36.399994l68.5,-68.000003l24.099998,24.099999l-66.5,66.6" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_2" d="m67.900002,20.9l24.400002,24.4" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_3" d="m15.5,72.800003l10.9,2.099998l0.200001,11.900002l12.300001,-0.100006l2.699997,9.400002" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_4" d="m26.4,74.900002l47.900003,-47.900002" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_5" d="m38.5,86.900002l47.900002,-47.900002" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_6" d="m7.8,95.400002l9.125001,9.125" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_7" d="m32.900002,55.900002l-27.100001,-27.100002l23.900001,-23.999999l27.099998,27.099999" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_8" d="m14.1,37.099998l14.6,-14.599998" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_9" d="m24.5,47.599998l7.900002,-7.899998" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_10" d="m81.099998,56.200001l27.099998,27.100002l-24,24l-27.099998,-27.100006" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_11" d="m99.800003,75l-14.5,14.599998" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_12" d="m89.400002,64.5l-7.900002,7.900002" stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+  <path id="svg_13" d="m4.125,108.924995l37.75,-14" transform="rotate(1.0579042434692383 23.000000000001954,101.92499542236318) " stroke-opacity="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="1.5" stroke="#231F20" fill-opacity="null" fill="none"/>
+ </g>
+</svg>
