@@ -1,529 +1,465 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Metas Page details-->
+<title>RTK Community Tech</title>
+<meta name="description" content="Coding for all ages!">
+<!-- Mobile Specific Metas-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--main style-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+<link rel="stylesheet" type="text/css" media="screen" href="css/skins/default.css" data-name="skins">
 
-   <meta charset="UTF-8" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-    <meta name="format-detection" content="telephone=no" />
+<!--google font style-->
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<!--font-family: 'Metrophobic', sans-serif;-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600italic,600,700italic,700' rel='stylesheet' type='text/css'>
+<!--font-family: 'Open Sans', sans-serif; -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,500,300italic,300,100,500italic' rel='stylesheet' type='text/css'>
+<!--font-family: 'Roboto', sans-serif; -->
 
-	<!-- FAVICON -->
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	
-	<!-- TITLE -->
-	<title>RubaTek Labs</title>
-	
-	<!-- DESCRIPTION -->
-	<meta name="author" content=" " />
-	<meta name="description" content="" />
-	<meta name="keywords"  content="" />
-   
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="css/font.css" rel="stylesheet" />
-    <link href="css/sliders.css" rel="stylesheet" />
-    <link href="css/square_menu.css" rel="stylesheet" />
-    <link href="css/animate.css" rel="stylesheet" />
-    <link href="css/jquery.minimalect.css" rel="stylesheet" />
-    <link href="css/datepicker.css" rel="stylesheet" />
-    <link href="css/prettyCheckable.css" rel="stylesheet" />
-    <link href="css/ie9.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-   
+<!-- font icon css style-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
+<body onLoad="load()" onUnload="GUnload()">
 
-<body class="home onehomepage creative">
-		<div class="sidemenu">
-		  <div class="effect right">
-		    <div class="col-lg-12">
-				 <div class="col-lg-3">
-					<div class="newsletter-logo">
-							<span class="icon-megaphone"></span>
-					</div>
-			     </div>
-				 <div class="col-lg-9">
-					<h3>Subscribe to our monthly newsletter.</h3>
-					<p class="p-16">You will get monthly News & Announcements. New Work & Theme Releases. Freebies & much more.</p>
-					<!-- SUBSCRIBE FORM -->
-					<div class="notify-by-email">
-						<div class="form-notify">
-							<form action="notify-me.php" id="notifyMe" method="POST" class="">
-								<div class="input-group">
-								  <input type="text" class="form-control email-add" name="email" placeholder="EMAIL ADDRESS">
-								</div>
-								<button class="btn btn-default notify-button uppercase white">subscribe</button>
-							</form>
-						</div>
-					</div>
-					<!-- /SUBSCRIBE FORM -->
-		  
-			     </div>
-			</div>
-				 
-		  </div>
-		  
-		</div>
-
-	 <div class="top-baner border">
-        <!-- <div id="border-top"></div>
-		<div id="border-left"></div>
-		<div id="border-right"></div>
-		<div id="border-bottom"></div> -->
-		<a  href="index.html" class="logo"><img src="images/logo.png" alt="RTK Labs" style="width: auto;"></a>
-
-		<div class="creative-slider">
-		     <div class="swiper-container" data-autoplay="0" data-slides-per-view="1" data-loop="0" data-speed="1000" id="creative-slider">            
-                    <div class="swiper-wrapper">
-                         <div class="swiper-slide">
-                             <div class="bg bg-bg-chrome" style="background-image:url(images/home/nyc-grey.png)">
-                                 <div class="top-baner-caption">
-                                   <span style="color: white;">iOS | Android | Mobile Web</span>
-									<h2 style="color: white;">A New Way to Build</h2>
-									     <div class="link-wrap">
-											<a href="project.html" class="start" style="background-color:  #BE2A1B;color: white;border-color: #BE2A1B;">start a project</a>
-										</div>
-								 </div>
-                             </div>  
-					     </div>
-				    </div>
-						<div class="pagination home-pagination"></div>	
-			 </div>
-         </div>
-	</div>  				
-			
-			<!-- Main --> 
-			<div id="main">
-				<div class="container">
-				    <div class="row">
-				        <div class="col-md-9">
-                           <div class="section-wrap">
-                              <h2 class="wow  fadeInLeft" data-wow-delay="0.5s">RubaTek specialises in Mobile App Development<br> using Cutting-Edge Technologies.</h2>
-                                <p class="wow  fadeInLeft"  data-wow-delay="0.6s">We are RubaTek Labs, your solution for creating the next generation of mobile-first, user-friendly apps. With the everchanging landscape of technology, keeping up doesn’t have to be challenge -- at least not yours. At Rubatek, we have the expert knowledge so you don’t have to worry about your app becoming undone. We carry your app all the way from ideation to launch and we do so without making it challenging. All you need to worry about is what you want in your app and we’ll handle the rest.</div>
-				        </div>
-				    </div>
-				    
-				    <div class="row">
-				        <div class="col-md-12">
-                           <div class="section-wrap">
-                              <h2 class="wow  fadeInLeft"  data-wow-delay="0.5s">Wide range of expertise</h2>
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                      <div class="range-block">
-                                        <div class="range-block-icon wow  fadeInUp"  data-wow-delay="0.5s">
-	                                        <span class="icon-genius"></span> 
-							            </div>
-                                           <div class="range-block-text">
-                                              <div class="we-do-caption wow  fadeInUp"   data-wow-delay="0.6s">
-								                  <h4>iOS</h4>
-							                  </div>
-                                              <div class="we-do-detail col-lg-11  col-sm-10 col-xs-10 no-padding wow  fadeInUp"  data-wow-delay="0.7s">
-								              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet justo risus, eu convallis lorem pretium ac. Praesent quis mauris ligula. Sed et vestibulum risus. 
-</p>
-							                  </div>
-                                           </div>
-                                      </div>
-                                   </div>
-                                   <div class="col-md-4 col-sm-6 col-xs-12">
-                                      <div class="range-block">
-                                        <div class="range-block-icon">
-								            <div class="range-block-icon wow  fadeInUp"  data-wow-delay="0.5s">
-                                               <span class="icon-clipboard"></span>
-                                            </div>
-							              </div>
-                                           <div class="range-block-text">
-                                              <div class="we-do-caption wow  fadeInUp"   data-wow-delay="0.6s">
-								                  <h4>Android</h4>
-							                  </div>
-                                              <div class="we-do-detail col-lg-11  col-sm-10 col-xs-10 no-padding wow  fadeInUp"  data-wow-delay="0.7s">
-								              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet justo risus, eu convallis lorem pretium ac. Praesent quis mauris ligula. Sed et vestibulum risus. 
-</p>
-							                  </div>
-                                           </div>
-                                      </div>
-                                   </div>
-                                   <div class="col-md-4 col-sm-6 col-xs-12">
-                                      <div class="range-block">
-                                        <div class="range-block-icon">
-								            <div class="range-block-icon wow  fadeInUp"  data-wow-delay="0.5s">
-                                               <span class="icon-mobile"></span>
-                                            </div>
-							              </div>
-                                           <div class="range-block-text">
-                                              <div class="we-do-caption wow  fadeInUp"   data-wow-delay="0.6s">
-								                  <h4>React Native</h4>
-							                  </div>
-                                              <div class="we-do-detail col-lg-11  col-sm-10 col-xs-10 no-padding wow  fadeInUp"  data-wow-delay="0.7s">
-								              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet justo risus, eu convallis lorem pretium ac. Praesent quis mauris ligula. Sed et vestibulum risus. 
-</p>
-							                  </div>
-                                           </div>
-                                      </div>
-                                   </div>
-                  
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                      <div class="range-block">
-                                        <div class="range-block-icon wow  fadeInUp"  data-wow-delay="0.5s">
-	                                       <span class="icon-linegraph"></span>
-							            </div>
-                                           <div class="range-block-text">
-                                              <div class="we-do-caption wow  fadeInUp"   data-wow-delay="0.6s">
-								                  <h4>Web</h4>
-							                  </div>
-                                              <div class="we-do-detail col-lg-11  col-sm-10 col-xs-10 no-padding wow  fadeInUp"  data-wow-delay="0.7s">
-								              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet justo risus, eu convallis lorem pretium ac. Praesent quis mauris ligula. Sed et vestibulum risus. 
-</p>
-							                  </div>
-                                           </div>
-                                      </div>
-                                   </div>
-                                   <div class="col-md-4 col-sm-6 col-xs-12">
-                                      <div class="range-block">
-                                        <div class="range-block-icon">
-								            <div class="range-block-icon wow  fadeInUp"  data-wow-delay="0.5s">
-                                               <span class="icon-expand"></span>
-                                            </div>
-							              </div>
-                                           <div class="range-block-text">
-                                              <div class="we-do-caption wow  fadeInUp"   data-wow-delay="0.6s">
-								                  <h4>Backend</h4>
-							                  </div>
-                                              <div class="we-do-detail col-lg-11  col-sm-10 col-xs-10 no-padding wow  fadeInUp"  data-wow-delay="0.7s">
-								              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet justo risus, eu convallis lorem pretium ac. Praesent quis mauris ligula. Sed et vestibulum risus. 
-</p>
-							                  </div>
-                                           </div>
-                                      </div>
-                                   </div>
-                                   <div class="col-md-4 col-sm-6 col-xs-12">
-                                      <div class="range-block">
-                                        <div class="range-block-icon">
-								            <div class="range-block-icon wow  fadeInUp"  data-wow-delay="0.5s">
-                                               <span class="icon-dial"></span>
-                                            </div>
-							              </div>
-                                           <div class="range-block-text">
-                                              <div class="we-do-caption wow  fadeInUp"   data-wow-delay="0.6s">
-								                  <h4>Unity</h4>
-							                  </div>
-                                              <div class="we-do-detail col-lg-11  col-sm-10 col-xs-10 no-padding wow  fadeInUp"  data-wow-delay="0.7s">
-								              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet justo risus, eu convallis lorem pretium ac. Praesent quis mauris ligula. Sed et vestibulum risus. 
-</p>
-							                  </div>
-                                           </div>
-                                      </div>
-                                   </div>
-                                </div>
-				            </div>
-				        </div>
-				    </div>
-				    
-				    <div class="row">
-			            <div class="col-md-12">
-				        <div class="section-wrap">
-                           <h2 class="wow  fadeInLeft"  data-wow-delay="0.5s">Showcase a fully responsive<br> portfolio theme</h2>
-                              <div class="filter-sort">
-                                 <div class="filter-img">
-                                     <img src="images/home/fillter-button.png" alt="filtter button">
-                                 </div>
-                                 <div id="filters">
-                                    <button class="button is-checked" data-filter="*">all</button>	
-                                    <button class="button" data-filter=".branding">branding</button>
-                                    <button class="button" data-filter=".print">print</button>
-                                    <button class="button" data-filter=".web">website</button>
-                                </div> 
-                              </div>
-                         </div>
-						</div>
-					</div>
-                   
-                    <div class="row margin-row"> 
-                        <div class="load-container">     
-                         <div class="izotope-container">
-					        <div class="grid-sizer"></div>
-							 <div class="itemm print branding">
-							   <a class="" href="portfolio_creative.html"></a>
-								<img src="images/home/project_1.jpg" alt="work image">
-									<div class="item-overlay">
-										<span class="item-title">FLASK</span>                    
-										<span class="item-cat">Branding | Print</span>
-										    <div class="svg-arrow">
-												 <img src="images/home/arrow.png" alt="arrow">										                                             </div>
-									</div> 
-							  </div>
-                                      
-                              <div class="itemm print branding">
-							   <a class="" href="portfolio_creative.html"></a>
-								<img src="images/home/project_2.jpg" alt="work image">
-									<div class="item-overlay">
-										<span class="item-title">sketch book</span>                    
-										<span class="item-cat">Branding | Print</span>
-										    <div class="svg-arrow">
-												 <img src="images/home/arrow.png" alt="arrow">										                                             </div>
-									</div> 
-							  </div>
-                             
-                              <div class="itemm print branding">
-							   <a class="" href="portfolio_creative.html"></a>
-								<img src="images/home/project_3.jpg" alt="work image">
-									<div class="item-overlay">
-										<span class="item-title">green box</span>                    
-										<span class="item-cat">Branding | Print</span>
-										    <div class="svg-arrow">
-												 <img src="images/home/arrow.png" alt="arrow">										                                             </div>
-									</div> 
-							  </div>       
-                              
-                              <div class="itemm web">
-							   <a class="" href="portfolio_creative.html"></a>
-								<img src="images/home/project_4.jpg" alt="work image">
-									<div class="item-overlay">
-										<span class="item-title">apple</span>                    
-										<span class="item-cat">Website</span>
-										    <div class="svg-arrow">
-												 <img src="images/home/arrow.png" alt="arrow">										                                             </div>
-									</div> 
-							  </div> 
-                              
-                              <div class="itemm w_60 web">
-							   <a class="" href="portfolio_creative.html"></a>
-								<img src="images/home/project_5.jpg" alt="work image">
-									<div class="item-overlay">
-										<span class="item-title">razor sharp</span>                    
-										<span class="item-cat">Website</span>
-										    <div class="svg-arrow">
-												 <img src="images/home/arrow.png" alt="arrow">										                                             </div>
-									</div> 
-							  </div>
-                        
-                              <div class="itemm web">
-							   <a class="" href="portfolio_creative.html"></a>
-								<img src="images/home/project_6.jpg" alt="work image">
-									<div class="item-overlay">
-										<span class="item-title">metal chair</span>                    
-										<span class="item-cat">Website</span>
-										    <div class="svg-arrow">
-												 <img src="images/home/arrow.png" alt="arrow">										                                             </div>
-									</div> 
-							  </div>
-                        
-                              <div class="itemm branding print">
-							   <a class="" href="portfolio_creative.html"></a>
-								<img src="images/home/project_7.jpg" alt="work image">
-									<div class="item-overlay">
-										<span class="item-title">old jute flask</span>                    
-										<span class="item-cat">Branding | Print</span>
-										    <div class="svg-arrow">
-												 <img src="images/home/arrow.png" alt="arrow">										                                             </div>
-									</div> 
-							  </div>
-                        
-                              <div class="itemm web">
-							   <a class="" href="portfolio_creative.html"></a>
-								<img src="images/home/project_8.jpg" alt="work image">
-									<div class="item-overlay">
-										<span class="item-title">metal chair</span>                    
-										<span class="item-cat">Website</span>
-										    <div class="svg-arrow">
-												 <img src="images/home/arrow.png" alt="arrow">										                                             </div>
-									</div> 
-							  </div>
-                              
-                              <div class="itemm print branding">
-							   <a class="" href="portfolio_creative.html"></a>
-								<img src="images/home/project_9.jpg" alt="work image">
-									<div class="item-overlay">
-										<span class="item-title">art book</span>                    
-										<span class="item-cat">Branding | Print</span>
-										    <div class="svg-arrow">
-												 <img src="images/home/arrow.png" alt="arrow">										                                             </div>
-									</div> 
-							  </div>
-                        
-                              <div class="itemm branding print">
-							   <a class="" href="portfolio_creative.html"></a>
-								<img src="images/home/project_10.jpg" alt="work image">
-									<div class="item-overlay">
-										<span class="item-title">visiting card</span>                    
-										<span class="item-cat">Branding | Print</span>
-										    <div class="svg-arrow">
-												 <img src="images/home/arrow.png" alt="arrow">										                                             </div>
-									</div> 
-							  </div>
-							</div>
-				         </div>
-					</div>
-			    
-			    	<div class="row">
-			    		<div class="lode-more">
-			    			<a href="">load more projects</a>
-			    			    <div class="svg-arrow">
-									 <img src="images/home/arrow.png" alt="arrow">										                                             </div>  
-			    		</div>
-			    	</div>
-				   
-                    <div class="section-wrap">
-                         <div class="row">
-                            <div class="col-md-12">
-				                <h2 class="wow  fadeInLeft"  data-wow-delay="0.5s">We pride ourselves in being simple, clear and to the point</h2>
-                            </div>
-                         </div>
-                         <div class="row">    
-                              <div class="col-md-4 col-sm-6 col-xs-12 wow  fadeIn"  data-wow-delay="0.6s">
-                                 <div class="team-block-wrapp">
-                                      <div class="team-img">
-                                      	<img src="images/home/team_1.jpg" alt="team">
-                                      </div>
-                                      <div class="team-text">
-                                          <h3>Hasan Mir</h3>
-                                            <h5>Strategist</h5>  
-                                              <div class="hide-text-block">
-                                               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam sedesmi. Consectetur elit placerat mollis. Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam sedesmi.</p>
-                                                 <div class="follow-team">
-                                                     <a href="" class="fa fa-facebook"></a> 
-                                                     <a href="" class="fa fa-twitter"></a>
-                                                 </div>
-                                               </div>
-                                      </div>
-                                 </div> 
-                              </div>
-                              <div class="col-md-4 col-sm-6 col-xs-12 wow  fadeIn"  data-wow-delay="0.8s">
-                                  <div class="team-block-wrapp">
-                                      <div class="team-img">
-                                      	<img src="images/home/team_2.jpg" alt="team">
-                                      </div>
-                                      <div class="team-text">
-                                          <h3>Felix Changoo</h3>
-                                            <h5>Designer</h5>  
-                                              <div class="hide-text-block">
-                                               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam sedesmi. Consectetur elit placerat mollis. Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam sedesmi.</p>
-                                                 <div class="follow-team">
-                                                     <a href="" class="fa fa-facebook"></a> 
-                                                     <a href="" class="fa fa-twitter"></a>
-                                                 </div>
-                                               </div>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12 wow  fadeIn"  data-wow-delay="1s">
-                                  <div class="team-block-wrapp">
-                                      <div class="team-img">
-                                      	<img src="images/home/team_3.jpg" alt="team">
-                                      </div>
-                                      <div class="team-text">
-                                          <h3>Magfurul Abeer</h3>
-                                            <h5>Developer</h5>  
-                                              <div class="hide-text-block">
-                                               <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam sedesmi. Consectetur elit placerat mollis. Lorem ipsum dolor sit amet consectetur adipiscing elit Etiam sedesmi.</p>
-                                                 <div class="follow-team">
-                                                     <a href="" class="fa fa-facebook"></a> 
-                                                     <a href="" class="fa fa-twitter"></a>
-                                                 </div>
-                                               </div>
-                                      </div>
-                                  </div>
-                              </div>
-                        </div>
-				    </div>
-				</div> 
-            <div class="work-hard">
-                   <div class="clip">
-                       <div class="bg bg-bg" style="background-image:url(images/home/work_hard.jpg)">
-                       </div>
-                   </div>
-               <span class="wow  fadeInLeft"  data-wow-delay="0.5s">WORK HARD. STAY HUMBLE.</span>
+<!--wrapper start-->
+<div class="wrapper" id="wrapper"> 
+  <!-- Preloader -->
+  <div id="preloader">
+    <div id="status"></div>
+  </div>
+  <!--Header start -->
+  <header> 
+    <!--menu start-->
+    <div class="menu">
+      <div class="navbar-wrapper">
+        <div class="container"> 
+          <!-- Navbar start -->
+          <div class="navwrapper">
+            <div class="navbar navbar-inverse navbar-static-top">
+              <div class="container">
+                <div class="logo"><a href="#"><span class="img-circle">r</span>tk community</a> </div>
+                <nav class="navArea">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                  </div>
+                  <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav" id="navigation">
+                      <li class="menuItem" id="home"><a href="#wrapper">Home</a></li>
+                      <li class="menuItem"><a href="#story">Our Story</a></li>
+                      <li class="menuItem"><a href="#courses">Courses</a></li>
+                      <li class="menuItem"><a href="#contact">Contact</a></li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
             </div>
-				
-				<section class="client-sec">
-					<div class="container no-padding">
-						<div id="slider3_container">
-							<div class="inner_carousal slider" u="slides">
-								<div><img alt="client_bharatforge" src="images/logo/logo_1.png" /></div>
-								<div><img alt="client_tata" src="images/logo/logo_2.png" /></div>
-								<div><img alt="client_renault" src="images/logo/logo_3.png" /></div>
-								<div><img alt="client_reliance" src="images/logo/logo_4.png" /></div>
-								<div><img alt="client_shopify" src="images/logo/logo_5.png" /></div>
-								<div><img alt="client_wwf" src="images/logo/logo_6.png" /></div>
-								<div><img alt="client_wwf" src="images/logo/logo_4.png" /></div>
-							</div>
-						</div>
-					</div>
-				</section>
-				</div>
-				<footer class="footer-sec footer-contact">
-				  <div class="container  no-padding">
-					<div class="col-lg-12 no-padding contact-detail">
-						<div class="col-lg-3 no-padding ">
-							<div class="col-lg-12 no-padding contact-img">
-								<a href="tel:">
-									<div id="phone" class="contact-icon-wrap wow  fadeInLeft"  data-wow-delay=".5s">
-										<div class="footer-icon">
-											<span class="icon-phone"></span>	
-										</div>	
-									</div>
-								</a>	
-							</div>
-							<div class="col-lg-12 no-padding contact-number wow  fadeInLeft"  data-wow-delay=".5s"><p class="p-28"><a href="tel:">+91 20 4105 1818</a></p></div>
-						</div>	
-						<div class="col-lg-3 no-padding ">
-							<div class="col-lg-12 no-padding contact-img">
-								<a href="mailto:contact@multia.in">
-									<div id="mail" class="contact-icon-wrap wow  fadeInLeft"  data-wow-delay=".7s">
-										<div class="footer-icon">
-										    <span class="icon-envelope"></span>
-										</div>
-									</div>
-								</a>	
-							</div>
-							<div class="col-lg-12 no-padding contact-number wow  fadeInLeft"  data-wow-delay=".7s"><p class="p-28"><a href="mailto:contact@multia.in">contact@Bodø.com</a></p></div>
-						</div>
-						<div class="col-lg-3 no-padding ">
-							<div class="col-lg-12 no-padding contact-img">
-								<a href="mailto:contact@multia.in">
-									<div id="mail" class="contact-icon-wrap wow  fadeInLeft"  data-wow-delay=".8s">
-										<div class="footer-icon">
-										    <span class="icon-megaphone"></span>
-										</div>
-									</div>
-								</a>	
-							</div>
-							<div class="col-lg-12 no-padding contact-number wow  fadeInLeft"  data-wow-delay=".8s"><p class="p-28"><a href="http://multia.ticksy.com/">Bodø.ticksy.com</a></p></div>
-						</div>
-						
-						
-						<div class="col-lg-3 no-padding sm-button wow  fadeInRight"  data-wow-delay=".7s">
-							<h5></h5>
-						</div>
-					</div>
-					</div>
-					<div class="copiright">
-				      <div class="follow-footer">
-					  	 <a href=""><span class="fa fa-facebook"></span></a>
-					  	 <a href=""><span class="fa fa-twitter"></span></a>
-					  	 <a href=""><span class="fa fa-google-plus"></span></a>
-						 <a href=""><span class="fa fa-dribbble"></span></a>
-						 <a href=""><span class="fa fa-tumblr"></span></a>
-					  </div>
-					   <span>© 2017 RubaTek Labs LLC</span>
-					</div>
-		</footer>
-		<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-		<script type='text/javascript' src="js/idangerous.swiper.min.js"></script>
-		<script type='text/javascript' src="js/plugins.js"></script>
-		<script type='text/javascript' src="js/bootstrap.min.js"></script>	
-		<script type='text/javascript' src="js/jssor.js"></script>	
-		<script type='text/javascript' src="js/jssor.slider.js"></script>
-		<script type='text/javascript' src="js/jquery.countTo.js"></script>
-		<script type='text/javascript' src="js/counter.js"></script>
-		<script type='text/javascript' src="js/skrollr.min.js"></script>
-		<script type='text/javascript' src="js/jquery.parallaxify.min.js"></script>
-		<script type='text/javascript' src="js/jquery.square_menu.js"></script>
-	    <script type="text/javascript" src="js/wow.min.js"></script>
-		<script type="text/javascript" src="js/notifyMe.js"></script>
-		<script type='text/javascript' src="js/isotope.pkgd.min.js"></script>
-		<script type='text/javascript' src="js/scripts.js"></script>
-		
-</body>
+          </div>
+          <!-- Navbar end --> 
+        </div>
+      </div>
+    </div>
+    <!--menu end--> 
+    
+    <!--banner start v4-->
+    <div class="header_v4">
+      <div class="banner row" id="banner">
+        <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12 noPadd slides-container" style="height:100%"> 
+          <!--background slide show start-->
+          <div class="slide"> 
+            <!--slid1 start-->
+            <div class="container hedaer-inner">
+              <div class="bannerText">
+                <h3>Learn to code !</h3>
+                <p>The most requested skill of the 21st century.</p>
+                <p><a href="#courses" class="smooth">View Our Courses <i class="fa fa-angle-right"></i></a></p>
+              </div>
+            </div>
+            <!--slid1 end--> 
+            <img src="./images/header-image/children-header.jpg" alt="header"> </div>
+          <!--background slide show end--> 
+        </div>
+      </div>
+    </div>
+    <!--banner end v4-->     
+  </header>
+  <!--Header end --> 
+  <!--Story start -->
+  <section class="white_section section_gap" id="story">
+    <div class="container">
+      <div class="heading">
+        <h1><span>Our</span>Story</h1>
+        <p>RTK Community was founded on the belief that knowing how to code is a skill<br> 
+          that everyone should have: young and old. We realized that the problem isn't so much<br>
+          that coding is a hard skill but one that requires the "right" approach and consistency.<br> 
+          We are a group of industry proffesionals who once upon time didn't know a variable<br> 
+          from a method. Our experience has taught us that coding isn't some black box or a "hard" skill.<br> 
+          We pass the benefits of our years of experience to you. Join us as we bring you on the journey of<br> 
+          a lifetime, taking you from absolute beginner to a solid coder. Coding doesn't have to be<br> 
+          hard, especially when you have the right teachers.</p>
+      </div>
+  </section>
+  <!--Story end -->
+  <!--yellow section seperator start -->
+  <section class="yellow_section numbers_section factabout"></section>
+    <!--yellow section seperator end --> 
+  <!--Our course start-->
+  <section class="grey_section section_gap" id="courses">
+    <div class="container">
+      <div class="heading">
+        <h1><span>Our</span>Courses</h1>
+        <p>Our offerings span coding for all ages!<br>Coming soon! (but here's a preview)</p>
+      </div>
+      <div class="row"> 
+        <!-- Vertical tabs start-->
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+          <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#sproutminds" aria-controls="sproutminds" role="tab" data-toggle="tab">Sprouting Minds</a></li>
+            <li role="presentation"><a href="#builderacademy" aria-controls="builderacademy" role="tab" data-toggle="tab">Builder Academy</a></li>
+            <li role="presentation"><a href="#neverending" aria-controls="neverending" role="tab" data-toggle="tab">Neverending Tech</a></li>
+          </ul>
+        </div>
+        <!-- Vertical tabs end--> 
+        <!-- Vertical tabs content start-->
+        <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 tab_text">
+          <div class="tab-content"> 
+            <!-- Vertical tabs content01 start-->
+            <div role="tabpanel" class="tab-pane active" id="sproutminds">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5"><img src="./images/courses/child-image.jpg" alt="child-image"></div>
+                <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
+                  <h3>Sprouting Minds</h3>
+                  <p>Aimed at helping the byte-sized member of the family writing their own programs!<br>
+                  <p>We take your child step by step from basic html to building their very own web apps!</p>
+                </div>
+              </div>
+            </div>
+            <!-- Vertical tabs content01 end--> 
+            <!-- Vertical tabs content02 start-->
+            <div role="tabpanel" class="tab-pane fade" id="builderacademy">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5"><img src="./images/courses/teen-image.jpg" alt="teen-image"></div>
+                <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
+                  <h3>Builder Academy</h3>
+                  <p>For the slightly older member of the family. This courses builds on what we teach in our Sprouting Minds program<br>
+                  but takes it a step further. Expect to learn even more advanced programming concepts and build even more cool apps!</p>
+                </div>
+              </div>
+            </div>
+            <!-- Vertical tabs content02 end--> 
+            <!-- Vertical tabs content03 start-->
+            <div role="tabpanel" class="tab-pane fade" id="neverending">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5"><img src="./images/courses/elder-image.jpg" alt="elder-image"></div>
+                <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
+                  <h3>Neverending Tech</h3>
+                  <p>Designed for the older person in mind. We believe that coding isn't just for the younger individual but can be enjoyed just as much by the older generation. This course is assumes no prior knowledge and gracefully moves to incrementally more challenging programming concepts. There's also more fun projects to build!</p>
+                </div>
+              </div>
+            </div>
+            <!-- Vertical tabs content03 end-->  
+          </div>
+        </div>
+        <!-- Vertical tabs content end--> 
+      </div>
+    </div>
+  </section>
+  <!--/Our course end--> 
+  <!--fun facts start -->
+  <section class="yellow_section numbers_section factabout">
+  </section>
+  <!--fun facts end --> 
+  <!--have Question start -->
+  <section class="grey_section section_gap" id="contact">
+    <div class="container">
+      <div class="heading">
+        <h1><span>Contact</span>Us</h1>
+        <p>Feel free to reach out to us. We would love to chat!</p>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5"> 
+          <!--google map start-->
+          <div class="row mapArea">
+            <div id="map" style="width: 100%; height: 100%"></div>
+          </div>
+          <!--google map end--> 
+        </div>
+        <!-- contact from start-->
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+          <div id="message"></div>
+          <form method="post" action="php/contact.php" name="cform" id="cform">
+            <div class="form-row clearfix">
+              <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 normal" placeholder="Your Name">
+            </div>
+            <div class="form-row clearfix">
+              <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 normal" placeholder="Email address">
+            </div>
+            <div class="form-row clearfix">
+              <textarea name="comments" id="comments" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 normal medium" placeholder="Your Comments"></textarea>
+            </div>
+            <input type="submit" id="submit" name="send" class="button" value="Send message">
+            <div id="simple-msg"></div>
+          </form>
+        </div>
+        <!-- contact from end--> 
+      </div>
+    </div>
+  </section>
+  <!--have Question end --> 
+  <!--Bottom Four Column start-->
+  <section class="blue_section section_gap">
+    <div class="container">
+      <!-- Empty section start-->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 bottomAbout">
+          <h5 class="heading"></h5>
+          <h5></h5>
+        </div>
+        <!-- Empty section end--> 
+      <div class="row bottomfourcol"> 
+        <!-- Footer About us start-->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 bottomAbout">
+          <h5 class="heading">Find us</h5>
+          <h5>Coming soon to a Social Networks!</h5>
+          <div class="socialshare"> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-google"></i></a> <a href="#"><i class="fa fa-vimeo-square"></i></a> <a href="#"><i class="fa fa-dribbble"></i></a> <a href="#"><i class="fa fa-youtube"></i></a> </div>
+        </div>
+        <!-- Footer About us end--> 
+        <!-- Footer Recent news start-->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h5 class="heading">Updates</h5>
+          <ul class="footerLinks">
+            <li> <a href="#">Keep checking back!</a> <span>by <a href="#">Admin</a> on April 30, 2020</span> </li>
+          </ul>
+        </div>
+        <!-- Footer Recent news end--> 
+      </div>
+    </div>
+  </section>
+  <!--/Bottom Four Column end --> 
+  <!--Footer start-->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="pull-left">
+          <p>&copy; 2020  RTK Community Tech. All Rights Reserved</p>
+        </div>
+        <div class="pull-right"><a class="gototop smooth" href="#wrapper">Go To Top<i class="fa fa-chevron-up"></i></a></div>
+      </div>
+    </div>
+  </footer>
+  <!--Footer end --> 
+</div>
+<!--wrapper end--> 
 
+<!--modernizr js--> 
+<script type="text/javascript" src="js/modernizr.custom.26633.js"></script> 
+<!--jquary min js--> 
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!--for placeholder jquery--> 
+<script type="text/javascript" src="js/jquery.placeholder.js"></script> 
+
+<!--for header jquery--> 
+<script type="text/javascript" src="js/stickUp.js"></script> 
+<script src="js/jquery.superslides.js" type="text/javascript" charset="utf-8"></script> 
+<script type="text/javascript">
+"use strict";	
+	$('.header_v4 #banner').superslides({
+	  animation: 'fade',
+	  play: false
+	});
+</script> 
+
+<!--for portfolio jquery--> 
+<script src="js/jquery.isotope.js" type="text/javascript"></script>
+<link type="text/css" rel="stylesheet" property="stylesheet" id="theme" href="css/jquery-ui-1.8.16.custom.css">
+<link type="text/css" rel="stylesheet" property="stylesheet" href="css/lightbox.min.css">
+<script type="text/javascript" src="js/jquery.ui.widget.min.js"></script> 
+<script type="text/javascript" src="js/jquery.ui.rlightbox.js"></script> 
+
+<!--for video lightbox -->
+<link rel="stylesheet" property="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+
+<!--contact form js--> 
+<script type="text/javascript" src="js/jquery.contact.js"></script> 
+<!--Newsletter js--> 
+<script type="text/javascript" src="js/jquery.subscribe.js"></script> 
+<script src="http://maps.google.com/maps?file=api&amp;v=2.x&amp;key=ABQIAAAAjU0EJWnWPMv7oQ-jjS7dYxSPW5CJgpdgO_s4yyMovOaVh_KvvhSfpvagV18eOyDWu7VytS6Bi1CWxw" type="text/javascript"></script> 
+<script type="text/javascript">
+"use strict";	
+    //<![CDATA[
+    var map;
+
+    function load() {
+      if (GBrowserIsCompatible()) {
+        map = new GMap2(document.getElementById("map"));
+        map.setCenter(new GLatLng(-37.817682, 144.957595), 13);
+        document.getElementById("map").checked = true;
+        toggleZoom(false);
+      }
+    }
+
+    function toggleZoom(isChecked) {
+      if (isChecked) {
+        map.enableScrollWheelZoom();
+      } else {
+        map.disableScrollWheelZoom();
+      }
+    }
+
+    //]]>
+</script> 
+
+<!--about jquery--> 
+<script src="js/jquery.classyloader.min.js"></script> 
+<script defer src="js/jquery.flexslider.js"></script> 
+<script src="js/jquery.easing.js"></script> 
+<script src="js/jquery.mousewheel.js"></script> 
+<script defer src="js/slideroption.js"></script> 
+
+<!--Home Testimonial --> 
+<script>
+
+
+</script> 
+
+<!--for coundown jquary--> 
+<script type="text/javascript" src="js/jquery.countTo.js"></script> 
+<script type="text/javascript">
+jQuery(function($) {
+$(document).ready( function() {
+  //enabling stickUp on the '.navbar-wrapper' class
+	$('.navbar-wrapper').stickUp({
+		parts: {
+		  0: 'banner',
+		  1: 'features',
+		  2: 'courses',
+		  3: 'teachers',
+		  4: 'pricing',
+		  5: 'testimonial',
+		  6: 'blog',
+		  7: 'contact'
+		},
+		itemClass: 'menuItem',
+		itemHover: 'active',
+		topMargin: 'auto'
+		});
+	
+		// Video responsive
+		if ($(window).width()<400){
+			$('.lb_mixed').rlightbox({
+				videoWidth:320,
+				videoHeight:280		
+			});	
+		} if ($(window).width()<640){
+			$('.lb_mixed').rlightbox({
+				videoWidth:600,
+				videoHeight:360		
+			});	
+		} else {
+			$('.lb_mixed').rlightbox({
+				videoWidth:640,
+				videoHeight:360		
+			});	
+		}
+	
+		// run rlightbox
+		$( ".lb" ).rlightbox();
+		$( ".lb_title-overwritten" ).rlightbox({overwriteTitle: true});
+		
+		$('.flexslider').flexslider({
+			animation: "fade",
+			animationLoop: true,
+			slideshow: true,
+			pauseOnAction: false,
+			slideshowSpeed: 7000,
+			controlNav: true,
+			start: function(slider){
+			$('body').removeClass('loading');
+			}
+		});		
+	
+	var activeImage;
+
+	var getmaxHeight = 0;
+	$(".testimonialText li").each(function(index, element) {
+        if($(this).height()>getmaxHeight){
+			getmaxHeight = $(this).height();
+			$(".footerTopContent").height(getmaxHeight);
+			}
+    });
+	
+    $(".testimonialText li").fadeTo("fast",0);
+	$(".testimonialText li:first").fadeTo("fast",1);
+	$(".imageSlide .imageBox").removeClass("activeImage");
+	$(".imageSlide .imageBox:first").addClass("activeImage");
+	$(".imageSlide .imageBox").mouseenter(function(){
+		if(!$(this).hasClass("activeImage")){
+			var gi = $(this).index();
+			//console.log(gi);
+			$(".imageSlide .imageBox").removeClass("activeImage");
+			$(this).addClass("activeImage");
+			$(".testimonialText li").fadeTo("fast",0);
+			$(".testimonialText li:eq("+gi+")").fadeTo("fast",1);
+			}
+	})
+		
+	// Video lightbox
+	$("a[data-rel^='prettyPhoto']").prettyPhoto();	
+	
+	// for client work jquary
+	var windowBottom = $(window).height()+0;
+	var index=0;
+	$(document).scroll(function(){
+		divposition = parseInt($('.factabout').offset().top),10;
+		divsrollpos = parseInt($(window).scrollTop()),10;
+		ctop = parseInt(divposition-divsrollpos),10;
+		if(ctop<Math.round(windowBottom/2)){
+			if(index==0){	
+				
+				$('.timer').each(count);
+				
+			}
+			index++;
+		}
+	});
+
+
+
+function count(options) {
+	var $this = $(this);
+	options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+	$this.countTo(options);
+}
+	
+	
+	});
+
+});
+</script> 
+
+<!--for theme custom jquery--> 
+<script src="js/custom.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.14.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.14.3/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
 </html>
