@@ -583,8 +583,10 @@ header{
 .logo a:hover {
 	border:none !important;
 }
+
 #wordLogo {
-	width:300px;
+	max-width:100%;
+	width:225px;
 	height:58px;
 	background-color:transparent;
 }
