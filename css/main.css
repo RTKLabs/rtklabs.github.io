@@ -584,11 +584,36 @@ header{
 	border:none !important;
 }
 
+/* These are for different logo sizes */
+/* xs */
 #wordLogo {
-	max-width:100%;
 	width:225px;
 	height:58px;
 	background-color:transparent;
+}
+/* sm */
+@media (min-width: 768px) {
+    #wordLogo {
+		width: 150px;
+		height:58px;
+		background-color:transparent;
+    }
+}
+/* md */
+@media (min-width: 992px) {
+    #wordLogo {
+		width: 250px;
+		height:58px;
+		background-color:transparent;
+    }
+}
+/* lg */
+@media (min-width: 1200px) {
+    #wordLogo {
+		width: 325px;
+		height:58px;
+		background-color:transparent;
+    }
 }
 
 .logo a span {
