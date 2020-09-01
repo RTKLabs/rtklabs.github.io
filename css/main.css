@@ -568,7 +568,7 @@ header{
 	float:left;
 	width:auto;
 	height:auto;
-	margin-top:12px;
+	margin-top:10px;
 }
 .logo a{
 	font-size:36px;
@@ -590,29 +590,33 @@ header{
 	width:225px;
 	height:58px;
 	background-color:transparent;
+	margin-top:-5px;
 }
 /* sm */
-@media (min-width: 768px) {
+@media (min-width: 390px) {
     #wordLogo {
-		width: 150px;
+		width:150px;
 		height:58px;
 		background-color:transparent;
+		margin-top:-10px;
     }
 }
 /* md */
-@media (min-width: 992px) {
+@media (min-width: 475px) {
     #wordLogo {
-		width: 250px;
+		width:200px;
 		height:58px;
 		background-color:transparent;
+		margin-top:-10px;
     }
 }
 /* lg */
-@media (min-width: 1200px) {
+@media (min-width: 645px) {
     #wordLogo {
-		width: 325px;
+		width:325px;
 		height:58px;
 		background-color:transparent;
+		margin-top:-16px;
     }
 }
 
@@ -1752,7 +1756,7 @@ ul.list li {
 	.logo {
 		float: none;
 		left: 71px;
-		margin-top: 17px;
+		margin-top: 10px;
 		position: absolute;
 	}
 	.section_gap {
@@ -1814,7 +1818,7 @@ ul.list li {
 		background-color:#fff;
 	}
 	.navbar-inverse .navbar-toggle .icon-bar {
-		background-color:#000;
+		background-color: white;
 	}
 	
 	.navbar-toggle {
@@ -2045,8 +2049,20 @@ ul.list li {
 }
 
 
+/*----------------------------------------------------
+	 15. Custom
+------------------------------------------------------*/
+#ctaArrow {
+	width:100px;
+	height:100px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
 
-
-
+.pricingtables .heading h3 {
+	color:#fff;
+	font-weight: bold;
+}
 
 
