@@ -586,23 +586,26 @@ header{
 
 /* These are for different logo sizes */
 /* xs */
-#wordLogo {
-	width:225px;
-	height:58px;
-	background-color:transparent;
-	margin-top:-5px;
+@media (min-width: 203px) {
+	#wordLogo {
+		width:85px;
+		height:58px;
+		background-color:transparent;
+		margin-top:-5px;
+	}	
 }
+
 /* sm */
-@media (min-width: 390px) {
+@media (min-width: 260px) {
     #wordLogo {
-		width:150px;
+		width:110px;
 		height:58px;
 		background-color:transparent;
 		margin-top:-10px;
     }
 }
 /* md */
-@media (min-width: 475px) {
+@media (min-width: 375px) {
     #wordLogo {
 		width:200px;
 		height:58px;
@@ -1740,7 +1743,7 @@ ul.list li {
 	
 }
 
-@media screen and  (max-width: 810px) {
+@media screen and  (max-width: 1199px) {
 	
 	h1 {
 		font-size:45px;
@@ -2039,16 +2042,41 @@ ul.list li {
 
 }
 
-
-@media screen and (max-width: 400px) {	
-	
+@media screen and (max-width: 568px) {		
 	.numbers li {
 		width:100%;
 	}
-
 }
 
+@media screen and (min-width: 344px) and (max-width:1199px) {	
+	.form-container {
+		height:300px;
+	}
 
+	.numbers li {
+		width:100%;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width:343px) {	
+	.form-container {
+		height:350px;
+	}
+
+	.numbers li {
+		width:100%;
+	}
+}
+
+@media screen and (min-width: 100px) and (max-width:203px) {	
+	.form-container {
+		height:400px;
+	}
+
+	.numbers li {
+		width:100%;
+	}
+}
 /*----------------------------------------------------
 	 15. Custom
 ------------------------------------------------------*/
@@ -2065,4 +2093,7 @@ ul.list li {
 	font-weight: bold;
 }
 
+.heading p {
+	
+}
 
