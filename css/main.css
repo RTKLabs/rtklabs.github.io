@@ -641,7 +641,6 @@ header{
 }
 .isStuck .logo span{
 	color:#273342;
-	background-color:#fff;
 }
 
 .navArea{
@@ -739,7 +738,6 @@ ul.submenu{ display:none;}
 }
 .isStuck .navbar.navbar-inverse.navbar-static-top a:hover{
   color:#fff;
-  background-color:#000!important;
   border:none;
 }
 .isStuck .navbar.navbar-inverse.navbar-static-top a{
