@@ -99,3 +99,44 @@ ul.pricing-boxes li.best-plan .btn-primary,
 input.normal, select.normal, textarea.normal{
 	border-color:#26b5ea;
 }
+
+/* custom colors for different sections on navigation bar */
+ .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.navbar.navbar-inverse.navbar-static-top .customNav a:hover,
+.isStuck .navbar-inverse .customNav .navbar-nav>.active>a, .isStuck .navbar-inverse .customNav .navbar-nav>.active>a:focus
+{
+	border-color:#ff5284;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.navbar.navbar-inverse.navbar-static-top .customNav2 a:hover,
+.isStuck .navbar-inverse .navbar-nav .customNav2 >.active>a, .isStuck .navbar-inverse .customNav2 .navbar-nav>.active>a:focus
+{
+	border-color: #a0e4f7;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.navbar.navbar-inverse.navbar-static-top .customNav3 a:hover,
+.isStuck .navbar-inverse .navbar-nav .customNav3 >.active>a, .isStuck .navbar-inverse .customNav3 .navbar-nav>.active>a:focus
+{
+	border-color: #ffffff;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.navbar.navbar-inverse.navbar-static-top .customNav4 a:hover,
+.isStuck .navbar-inverse .navbar-nav .customNav4 >.active>a, .isStuck .navbar-inverse .customNav4 .navbar-nav>.active>a:focus
+{
+	border-color: #a0e4f7;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.navbar.navbar-inverse.navbar-static-top .customNav5 a:hover,
+.isStuck .navbar-inverse .navbar-nav .customNav5 >.active>a, .isStuck .navbar-inverse .customNav5 .navbar-nav>.active>a:focus
+{
+	border-color: #ffe35d;
+}

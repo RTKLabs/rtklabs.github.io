@@ -267,6 +267,9 @@ header{
 .header_v1 .bannerText p a:hover{
 	color:#fff;
 }
+.quotes{
+  display:none;
+}
 
 /*--------------------------------------
 	3.2.2 (v2) Header Slideshow
@@ -2091,7 +2094,9 @@ ul.list li {
 	font-weight: bold;
 }
 
-.heading p {
-	
+.heading p {}
+
+li {
+	list-style: none;
 }
 

@@ -70,11 +70,11 @@
                     </div>
                     <div class="navbar-collapse collapse">
                       <ul class="nav navbar-nav" id="navigation">
-                        <li class="menuItem" id="home"><a href="#wrapper">Home</a></li>
-                        <li class="menuItem"><a href="#story">Our Story</a></li>
-                        <li class="menuItem"><a href="#courses">Programs</a></li>
-                        <li class="menuItem"><a href="#gameDev">Game Dev Course</a></li>
-                        <li class="menuItem"><a href="#contact">Contact</a></li>
+                        <li class="menuItem customNav" id="home"><a href="#wrapper">Home</a></li>
+                        <li class="menuItem customNav2"><a href="#story">Our Story</a></li>
+                        <li class="menuItem customNav3"><a href="#gameDev">Game Dev Course</a></li>
+                        <li class="menuItem customNav4"><a href="#courses">Programs</a></li>
+                        <li class="menuItem customNav5"><a href="#contact">Contact</a></li>
                       </ul>
                     </div>
                   </nav>
@@ -96,10 +96,26 @@
               <!--slid1 start-->
               <div class="container hedaer-inner">
                 <div class="bannerText">
-                  <h3>“I think it's fair to say that personal computers have become the most empowering tool we've ever
-                    created. They're tools of communication, they're tools of creativity, and they can be shaped by
-                    their user.”</h3>
-                  <h3>- Bill Gates</h3>
+                  <div class="quotes">
+                    <h3>“I think it's fair to say that personal computers have become the most empowering tool we've
+                      ever
+                      created. They're tools of communication, they're tools of creativity, and they can be shaped by
+                      their user.”</h3>
+                    <h3>- Bill Gates</h3>
+                  </div>
+                  <div class="quotes">
+                    <h3>“I do not fear computers. I fear lack of them.”</h3>
+                    <h3>- Isaac Asimov</h3>
+                  </div>
+                  <div class="quotes">
+                    <h3>“Any sufficiently advanced technology is equivalent to magic.”</h3>
+                    <h3>- Arthur C. Clarke</h3>
+                  </div>
+                  <div class="quotes">
+                    <h3>“One machine can do the work of fifty ordinary men. No machine can do the work of one
+                      extraordinary man.”</h3>
+                    <h3>- Elbert Hubbard</h3>
+                  </div>
                   <p><a href="#courses" class="smooth">View Our Programs <i class="fa fa-angle-right"></i></a></p>
                 </div>
               </div>
@@ -162,6 +178,12 @@
             of the 21st century.</p>
           <br>
         </div>
+        <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 noPadd">
+          <div><img src="./images/Hologram copy.gif" alt="hologram"></div>
+        </li>
+        <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 noPadd">
+          <div><img src="./images/Slimer copy.gif" alt="slimmer"></div>
+        </li>
   </section>
   <!--Story end -->
 
@@ -204,19 +226,19 @@
       <ul>
         <!-- First Game Dev Image start-->
         <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 noPadd">
-          <div><img src="./images/Slimer copy.gif" alt="">
+          <div><img src="./images/robot.png" onclick="window.open(this.src)" alt="robot">
           </div>
         </li>
         <!-- First Game Dev Image end-->
         <!-- Second Game Dev Image start-->
         <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 noPadd">
-          <div><img src="./images/Hologram copy.gif" alt="">
+          <div><img src="./images/robot2.png" onclick="window.open(this.src)" alt="robot2">
           </div>
         </li>
         <!-- Second Game Dev Image end-->
         <!-- Third Game Dev Image start-->
         <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 noPadd">
-          <div><img src="./images/test copy.gif" alt="">
+          <div><img src="./images/robot3.png" onclick="window.open(this.src)" alt="robot3">
           </div>
         </li>
         <!-- Third Game Dev Image end-->
@@ -413,8 +435,8 @@
           parts: {
             0: 'banner',
             1: 'story',
-            2: 'courses',
-            3: 'gameDev',
+            2: 'gameDev',
+            3: 'courses',
             4: 'contact'
           },
           itemClass: 'menuItem',
@@ -569,6 +591,26 @@
       };
       xhr.send(data);
     }
+  </script>
+
+  <script>
+    // fading quotes
+    (function () {
+
+      var quotes = $(".quotes");
+      var quoteIndex = -1;
+
+      function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+          .fadeIn(2000)
+          .delay(5000)
+          .fadeOut(2000, showNextQuote);
+      }
+
+      showNextQuote();
+
+    })();
   </script>
 </body>
 
