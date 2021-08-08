@@ -174,7 +174,8 @@
             fact, our curious nature was what brought us from seeing stuff on a computer screen once<br>
             upon a time to actually make it. RTK Labs aims to make that very experience your own, providing<br>
             you the tools and platform to become a full-fledged coder and obtain the most sought-after skill<br>
-            of the 21st century.</p>
+            of the 21st century.
+          </p>
           <br>
         </div>
         <li class="col-xs-12 col-sm-6 col-md-3 col-lg-3 noPadd">
@@ -200,22 +201,28 @@
         <br>
         <br>
         <h3>What is it?<h3>
-            <p>We teach game development by taking your child from making their own custom graphics (sprites) all the way to coding
-            their own full-featured game!</p>
+            <p>We teach game development by taking your child from making their own custom graphics (sprites) all the
+              way to coding
+              their own full-featured game!</p>
             <br>
             <h3>How is it executed?<h3>
-                <p>Our crash course is broken up into two parts. In the first part, your child will use to learn how to use Piskel, an
-                online editor specifically designed for creating pixel art. Once your child has comfortably grasped the basics of pixel
-                art with Piskel, we move to the 2nd part of the course: coding! In the 2nd part of our course, we have your child create
-                their first game using the pixels they made and build a game using the Scratch visual programming language. In other
-                words, your child builds the entire game from the ground up!</p>
+                <p>Our crash course is broken up into two parts. In the first part, your child will use to learn how to
+                  use Piskel, an
+                  online editor specifically designed for creating pixel art. Once your child has comfortably grasped
+                  the basics of pixel
+                  art with Piskel, we move to the 2nd part of the course: coding! In the 2nd part of our course, we have
+                  your child create
+                  their first game using the pixels they made and build a game using the Scratch visual programming
+                  language. In other
+                  words, your child builds the entire game from the ground up!</p>
                 <br>
                 <h3>How long is it?<h3>
                     <p>The course runs for a few hours at most. Think about 6 - 7 hours.</p>
                     <br>
                     <h3>What else do I need to know?<h3>
-                        <p>Not much! An imagination and overall curiosity will help! No software to install as both Scratch and Piskel are
-                        available online!</p>
+                        <p>Not much! An imagination and overall curiosity will help! No software to install as both
+                          Scratch and Piskel are
+                          available online!</p>
       </div>
       <ul>
         <!-- First Game Dev Image start-->
@@ -242,6 +249,41 @@
     </div>
   </section>
   <!--Gamedev end -->
+  <!--Testimonials star-->
+  <section class="white_section section_gap" id="testimonial">
+    <div class="container">
+      <div class="heading">
+        <h1>Testimonials</h1>
+        <p>Here's what students and parents alike had to say...<br>
+      </div>
+      <div class="imageSlide">
+        <div class="imageBox"><img src="./images/pixel_coin copy.gif" width="98" height="98" alt="quote"></div>
+        <div class="imageBox"><img src="./images/pixel_coin copy.gif" width="98" height="98" alt="quote"></div>
+        <div class="imageBox"><img src="./images/pixel_coin copy.gif" width="98" height="98" alt="quote"></div>
+      </div>
+      <div class="footerTopContent">
+        <div class="quote"><i class="fa fa-quote-left"></i></div>
+        <ul class="slides testimonialText list-unstyled">
+          <li>
+            <p class="font-openBold">This computer class is awesome! I'm so impressed with all that Seany's created!
+              He's showing me all of the new additions from tonight. So cool!</p>
+            <h3 class="uppercase">Erin D.</h3>
+          </li>
+          <li>
+            <p class="font-openBold">I wouldn't change anything! It's an amazing program</p>
+            <h3 class="uppercase">Jennifer C.</h3>
+          </li>
+          <li>
+            <p class="font-openBold">Je'Nae was offered the opportunity to participate in video game design course with
+              RTK labs. She's been hard work the last 2 weeks, thinking outside the box, and creating her own version of
+              "flappy bird"!</p>
+            <h3 class="uppercase">April C.</h3>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--/Testimonials end-->
   <!--fun facts start -->
   <section class="yellow_section numbers_section factabout">
     <div class="container">
@@ -358,6 +400,37 @@
     </div>
   </section>
   <!--have Question end -->
+  <!--Bottom Four Column start-->
+  <section class="blue_section section_gap">
+    <div class="container">
+      <div class="row bottomfourcol">
+        <!-- Footer Partners start-->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 bottomAbout">
+          <h5 class="heading">Partners</h5>
+          <p><a href="https://www.southjerseysteam.org/">South Jersey STEAM, Inc.</a></p>
+          <a href="https://www.citizenschools.org/"><img src="./images/citizen-schools-logo.jpeg" width="150"
+              height="45"></a>
+          <br>
+        </div>
+        <!-- Footer Partners end-->
+        <!-- Footer Accrediation start-->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h5 class="heading">Accreditation</h5>
+          <ul>
+            <li><img src="./images/nyc-approved-vendor.png" width="125" height="83" alt="nyc approved vendor"></li>
+          </ul>
+        </div>
+        <!-- Footer Accrediation end-->
+        <!-- Footer Social start-->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h5 class="heading">Social Media</h5>
+          <div class="socialshare"> <a href="https://twitter.com/RubaTekLabs"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/RTKLabs"><i
+                class="fa fa-facebook"></i></a> 
+        </div>
+        <!-- Footer Social end-->
+      </div>
+  </section>
+  <!--/Bottom Four Column end -->
   <!--Footer start-->
   <footer class="footer">
     <div class="container">
@@ -489,7 +562,6 @@
         $(".imageSlide .imageBox").mouseenter(function () {
           if (!$(this).hasClass("activeImage")) {
             var gi = $(this).index();
-            //console.log(gi);
             $(".imageSlide .imageBox").removeClass("activeImage");
             $(this).addClass("activeImage");
             $(".testimonialText li").fadeTo("fast", 0);
