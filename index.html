@@ -84,8 +84,7 @@
                         <li class="menuItem customNav" id="home"><a href="#wrapper">Home</a></li>
                         <li class="menuItem customNav2"><a href="#story">Our Story</a></li>
                         <li class="menuItem customNav3"><a href="#gameDev">Game Dev Course</a></li>
-                        <li class="menuItem customNav4"><a href="#courses">Programs</a></li>
-                        <li class="menuItem customNav5"><a href="#contact">Contact</a></li>
+                        <li class="menuItem customNav4"><a href="#contact">Contact</a></li>
                       </ul>
                     </div>
                   </nav>
@@ -127,7 +126,8 @@
                       extraordinary man.”</h3>
                     <h3>- Elbert Hubbard</h3>
                   </div>
-                  <p><a href="#courses" class="smooth">View Our Programs <i class="fa fa-angle-right"></i></a></p>
+                  <!-- Removing this link until we update our offerings -->
+                  <!-- <p><a href="#courses" class="smooth">View Our Programs <i class="fa fa-angle-right"></i></a></p> -->
                 </div>
               </div>
               <!--slid1 end-->
@@ -144,11 +144,12 @@
     <!--Header form -->
     <div class="container form-header">
       <div class="form-container">
-        <h2>Game Dev For Kids!</h2>
-        <h4>Check out our new game development crash course!! Ages 11 and up!</h4>
+        <h2>Open Enrollment!</h2>
+        <br>
+        <h4>Sign up and get notified about our Game Dev for kids open enrollment. Ages 11 and up!</h4>
         <img id="ctaArrow" src="./images/downArrow.gif" alt="down-arrow">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <a href="#gameDev"><input type="button" class="button" value="Click here!"></a>
+          <a href="https://forms.gle/sbLAh6HzwVKs2j7F9"><input type="button" class="button" value="Click here!"></a>
         </div>
       </div>
     </div>
@@ -307,67 +308,6 @@
       </ul>
     </div>
   </section>
-  <!--fun facts end -->
-  <!--Our course start-->
-  <section class="grey_section section_gap" id="courses">
-    <div class="container">
-      <div class="heading">
-        <h1><span>Our</span>Programs</h1>
-        <p>Coming Soon! We're busy working on some quality content! (but here's a preview)</p>
-      </div>
-      <div class="row">
-        <!-- Vertical tabs start-->
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-          <ul class="nav nav-tabs custom-nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#sproutminds" aria-controls="sproutminds" role="tab"
-                data-toggle="tab">Sprouting Minds</a></li>
-            <li role="presentation"><a href="#builderacademy" aria-controls="builderacademy" role="tab"
-                data-toggle="tab">Builder Academy</a></li>
-          </ul>
-        </div>
-        <!-- Vertical tabs end-->
-        <!-- Vertical tabs content start-->
-        <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 tab_text">
-          <div class="tab-content">
-            <!-- Vertical tabs content01 start-->
-            <div role="tabpanel" class="tab-pane active" id="sproutminds">
-              <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5"><img src="./images/courses/child-image.jpg"
-                    alt="child-image"></div>
-                <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
-                  <h3>Sprouting Minds</h3>
-                  <p>Aimed at helping the byte-sized member of the family writing their own programs!<br>
-                  <p>We take your child step by step from basic html to building their very own web apps!</p>
-                </div>
-              </div>
-            </div>
-            <!-- Vertical tabs content01 end-->
-            <!-- Vertical tabs content02 start-->
-            <div role="tabpanel" class="tab-pane fade" id="builderacademy">
-              <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-5 col-lg-5"><img src="./images/courses/teen.jpg" alt="teen-image">
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
-                  <h3>Builder Academy</h3>
-                  <p>For the slightly older member of the family. This courses builds on what we teach in our Sprouting
-                    Minds program<br>
-                    but takes it a step further. Expect to learn even more advanced programming concepts and build even
-                    more cool apps!</p>
-                </div>
-              </div>
-            </div>
-            <!-- Vertical tabs content02 end-->
-          </div>
-        </div>
-        <!-- Vertical tabs content end-->
-      </div>
-    </div>
-  </section>
-  <!--/Our course end-->
-  <!--fun facts start -->
-  <section class="yellow_section numbers_section factabout">
-  </section>
-  <!--fun facts end -->
   <!--have Question start -->
   <section class="grey_section section_gap" id="contact">
     <div class="container">
@@ -391,7 +331,7 @@
             <textarea name="message" id="comments" class="col-xs-12 col-md-12 col-lg-12 normal medium"
               placeholder="Your Comments"></textarea>
           </div>
-          <input type="submit" id="submit" name="send" class="button" value="Send message">
+          <input type="submit" id="submit" name="send" class="button" value="Send message" onclick="submitConfirmation()">
           <div id="simple-msg"></div>
         </form>
       </div>
@@ -447,6 +387,12 @@
   </div>
   <!--wrapper end-->
 
+
+  <script>
+    function submitConfirmation() {
+      alert("Your message is being sent! We'll reply as soon as we get it :)");
+    }
+    </script>
   <!--modernizr js-->
   <script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
   <!--jquary min js-->
